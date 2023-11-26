@@ -34,7 +34,7 @@ void main()
     printf("Points de la suite de Halton en 2D:\n");
     for (int i = 0; i < N; ++i) 
     {
-        printf("%d: (%lf, %lf)\n", i + 1, x[i], y[i]);
+        printf(" %d: (%lf, %lf)\n", i + 1, x[i], y[i]);
     }
 
     return;
